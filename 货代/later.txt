@@ -1,0 +1,42 @@
+前端： vuejs + iview 组件 + element table + $http 提交数据(axios)   element table 应用见图片
+后端：think PHP + phpexcel
+
+#495060
+
+ :style="{paddingLeft: shrink?'60px':'160px'}
+ 
+ http://localhost/tp5/public/index/index/index
+ 
+ Math.floor(num / (24 * 3600 * 1000)) + 1;  日期
+ 
+ 图标
+ http://fontawesome.dashgame.com/
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ 
+ $("li").each(function(){
+$(this).click(function(){
+alert($(this).text())
+});
+ 
+ 字体  ： 宋体、黑体、微软雅黑、Arial, Helvetica, sans-serif此4种字体。
+ 
+ 多对多关联    
+      student   主键  id   学生表
+      stu_cource  主键 id  中间表  存放  stu_id  cource_id
+      cource   主键  id  课程表
+      在student的model中
+       $this->belongsToMany('course','stu_cource','cour_id','stu_id')；
+       .._id 都是中间表中
+       在cource表中也要写  但是可以什么都不写
+       $this->belongsToMany('student','stu_cour','stu_id','cour_id')
+       一对一
+       在一表写hasOne()  另一个写belongsTo();
+       
+       一对多
+       在一中写 hasMany()  在多中写belongsTo();
+      
+      打印
+      <script type="text/javascript" src="http://www.xdocin.com/xdoc.js"></script>
+ 
+    

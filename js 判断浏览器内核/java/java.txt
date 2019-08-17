@@ -1,0 +1,9 @@
+java
+  枚举中的values：用enum声明类时计算机会自动添加一些方法如values()，values()
+  用来获取枚举的数据
+  
+集合 
+  List 
+   ArrayList add 添加往后添加
+  Set
+  java去重可以使用Set集合

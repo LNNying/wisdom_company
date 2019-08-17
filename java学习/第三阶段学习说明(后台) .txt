@@ -1,0 +1,18 @@
+#### 第三阶段的学习任务
+
+iview组件库学习：<https://www.iviewui.com/>
+
+iview-admin:<https://github.com/iview/iview-admin>
+
+​	把这个项目运行起来，学习一下各个页面是怎么写的
+
+git的学习：<https://www.liaoxuefeng.com/wiki/896043488029600
+
+
+
+#### 考核要求：
+​	熟练使用组件库，熟悉git
+
+#### 时间：
+
+​	到6月7号

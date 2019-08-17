@@ -1,0 +1,328 @@
+vuejs   iview   element table   axios  router    
+
+严谨
+
+js 判断Infinity  ---- isFinite()    判断NaN --------isNaN() 
+===========================================
+数组函数
+1. substring(star,stop)  截取字符串 但不包括stop位置 不允许负值
+2. slice(star, stop) 截取字符串 但不包括stop位置 允许负值
+3.substr (star, length) 截取字符串 通过开始位置和长度截取
+4.split（''）通过指定特定字符将字符串分割成数组
+5.join（''） 通过指定特定字符将数组连接成字符串
+6.reverse() 将数组或字符串反之
+7.toUpperCase() 转换成大写
+8.toLowerCase() 转成小写
+===========================================
+1.配置路由：在对应的父菜单下配置子菜单，path为组建的名字唯一，title子菜单名称唯一，name组件名字，meta为权限都谁能看见，后端限制，自己写的时候忽略这点没有显示出来子菜单，component引入子组件，hide是否显示子菜单，会自动在左侧菜单中显示出来，点击菜单会在外组建的<router-view></router-view>中渲染出来，而点击按钮跳转渲染页面@click="$router.push({name:'组件名称'})"
+
+json 的数据格式   
+         键名 必须用双引号引起 
+         数据方式  数组 [,  , ] 或 [{},{},{}]
+                        对象{"":  ,"": }
+                        JSON.parse()将json字符串转换为object对象数据
+                        JSON.stringify()将对象转换为字符串
+                        
+ vuex是全局的状态管理，全局的数据存储，跨组件数据共享，在理解跨组件数据共享时，我也可以用ref的方式来获取数据，也是可以的，但是数据维护很难，父子组件交互，子组件通过props方式货物父组件数据，父组件通过子组件$emit抛出数据来获取，而兄弟组件，ref是可以做到，但是常规用vuex来实现跨组件获取数据。对于兄弟组件之间的事件，用ref实现，如$refs.refName.focus();组件直接按数据的交互，通过父子组件和vuex实现。
+ 
+ filter 用法 1. 可以用作数组的过滤，返回，
+                2. 可以改变数组的元素值
+ 
+ 提交文件 
+   在master分支  
+         git stash 暂存一下数据
+         git pull --rebase 拉一下代码
+         git stash pop  得到最近的stash数据
+         git add
+         git commit -m''
+         git push
+		 (如果别人也在提交---git pull --rebase 在 git push)
+     在自己分支上 看图片
+	 
+	 在分支中
+		 git stash 暂存一下数据
+		 git pull --rebase 拉一下代码
+		 git stash pop  得到最近的stash数据
+		 git add
+	     git commit 
+	     git push origin 分支名
+	   (如果别人也在提交---git pull origin 分支名 在 git push origin 分支名)
+	 
+	 
+	 
+	 
+ ------------------CSS--------------------------------
+ https://www.css88.com/book/css/properties/writing-modes/index.htm
+ 
+ ------------------ESLint------------------------------
+ https://www.cnblogs.com/-walker/p/8143715.html
+ ------------------------------------------------------
+ -----------------PDF--------------------------------
+ https://blog.csdn.net/qq_32042227/article/details/77503276
+ -----------------------------------------------------
+ 
+ ---------------js 加密与解密-------------------------
+ 
+function utf8_to_b64( str ) {     -----------加密
+    return window.btoa(unescape(encodeURIComponent( str )));
+}
+
+function b64_to_utf8( str ) {    -----------解密
+    return decodeURIComponent(escape(window.atob( str )));
+}
+
+------------------------svg---animate-----------------------
+https://www.zhangxinxu.com/wordpress/2014/08/so-powerful-svg-smil-animation/ 
+
+---------------------------------------------------------------------------
+
+-----------------------复制CDN-----------------------------------------
+https://clipboardjs.com/#example-text          ---------手册
+< script  src = “ https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js ” > </ script >
+data-clipboard-target="#foo" 触发器
+<input id="foo" value="https://github.com/zenorocha/clipboard.js.git">
+<!-- Trigger -->
+<button class="btn" data-clipboard-target="#foo">
+    <img src="assets/clippy.svg" alt="Copy to clipboard">
+</button>
+data-clipboard-action="cut" -----------剪切
+data-clipboard-text              -----------提供复制的文本
+-------------------------------------------------------------------------
+vuex      
+1.getter：获取数据，也可以用this.$store.state.属性的方式直接获取数据，但是要对数据进行处理，数据格式转化的时候用getters，
+2.改变数据方式唯一为提交mutation，而且该操作必须是同步，所以改数据用mutation，获取数据用getters。一般情况下提交对象
+3.根据watch来监听state中的改变，做出相应操作。
+3.写了一个小例子，感觉commit提交的是mutation的方法，通过方法来改变数据。
+注意：Vuex.store
+          state:{} -- 储存数据
+          mutation：{} -- 改变数据值
+          action: {} -- 逻辑处理
+          getter: {} -- 处理数据结构
+       
+webpack 开发环境可以使用proxyTable 来代理跨域，生产环境的话可以根据各自的服务器进行配置代理跨域就行了
+ -----------------------------js正则函数-----------------------------------------
+ 网站：https://www.cnblogs.com/Byme/archive/2017/10/23/7718218.html
+ /*是否带有小数*/
+function    isDecimal(strValue )  {  
+   var  objRegExp= /^\d+\.\d+$/;
+   return  objRegExp.test(strValue);  
+}  
+/*校验是否中文名称组成 */
+function ischina(str) {
+	var reg=/^[\u4E00-\u9FA5]{2,4}$/;   /*定义验证表达式*/
+	return reg.test(str);     /*进行验证*/
+}
+/*校验是否全由8位数字组成 */
+function isStudentNo(str) {
+	var reg=/^[0-9]{8}$/;   /*定义验证表达式*/
+	return reg.test(str);     /*进行验证*/
+}
+/*校验电话码格式 */
+function isTelCode(str) {
+	var reg= /^((0\d{2,3}-\d{7,8})|(1[3584]\d{9}))$/;
+	return reg.test(str);
+}
+/*校验邮件地址是否合法 */
+function IsEmail(str) {
+	var reg=/^\w+@[a-zA-Z0-9]{2,10}(?:\.[a-z]{2,4}){1,3}$/;
+	return reg.test(str);
+}
+----------------------------------------------------------------------
+js函数中this与arguments区别
+         arguments是存放实参副本的通过arguments可以获取超出形参个数之外的实参
+         this指调用上下文 call与apply都会改变this的指向，默认传参都是window，区别在于各自的第二个参数，apply可以为数组对象，但call必须列举出来
+         
+闭包  -----一层一层的函数调用，内层函数没有x变量，外层函数有，会调用外层函数，否者，调用自身变量
+        闭包是由函数以及创建该函数的词法环境组合而成
+        闭包模拟私有属性，就像是Java中面向对象一样，每一个闭包都有自己的环境，独立不互相影响。
+        闭包具有弊端，可通过定义原型方法来避免使用，如MyMethod.prototype.getName=function(){};
+IIFE  function f(){}() 函数自身自动调用
+-----------------------------------------React------------------------
+自上而下解析代码
+和vue一样，子元素必须放在一个跟组件中。在使用CDN时script必须加type='text/babel' 否者会报错。
+通过  ReactDOM.render() 的方法来将其渲染到页面上，React是不可逆的，不可以改变元素和其内容，唯一方式是创建一个新的元素，然后将它传入 ReactDOM.render() 方法
+可以创建一个 React.Component 的 ES6 类，该类封装了要展示的元素，需要注意的是在 render() 方法中，需要使用 this.props 替换 props
+添加自定义属性需要使用 data- 前缀
+react 使用JSX来替代js，表达式和变量需要放在{}中。
+样式 写成对象的模式，在render()中style={对象名} 但是直接写成style='color:red'会报错 换成style={{color:'red'}}
+注释 ： {/*......*/}
+JSX 允许标签放在数组，进行展开。
+-------------------------------------------
+实现双向绑定
+    手动实现 <input type="text" value={this.state.text} onChange={this.change}/>
+    change(event){
+            console.log(event.target);
+            this.setState({text:event.target.value});
+        }
+-------------------------------------------
+React 的 JSX 使用大、小写的约定来区分本地组件的类和 HTML 标签。
+         要渲染 HTML 标签，只需在 JSX 里使用小写字母的标签名。
+         要渲染 React 组件，只需创建一个大写字母开头的本地变量。
+-------------------------------------------
+创建组件  
+       ES6 class Mycomponent extend React.Component {render(){return{标签}}}
+-------------------------------------------
+状态 state 放在构造函数中初始化 this.state  this.setState 设置state值  可以放置style样式  
+props与state区别为props不可变，state用于与用户交互
+state 与vuex中的state相似
+-------------------------------------------
+props 验证 <script src="https://cdn.bootcss.com/prop-types/15.6.1/prop-types.js"></script>   
+MyTitle.propTypes = {
+  title: PropTypes.string
+};
+------------------------------------------
+事件处理 
+      React 事件绑定属性的命名采用驼峰式写法，而不是小写。
+      需要在构造函数定义 this.handleClick = this.handleClick.bind(this); 才能在函数中使用this
+      this.deleteRow.bind(this, id) ------>传参
+  ----------------------------------------
+条件判断 显示
+      变量存储元素
+      && 与运算符 右边为true 左侧渲染   false 则跳过
+      三目运算符 输出标签
+if (!props.warn) {           -------判断显示隐藏
+    return null;
+  }
+  ---------------------------------------
+ 列表&keys
+ react 通过map方法实现循环输出 
+  key={number.toString()}
+----------------------------------------
+React组件API
+setState  设置state中的属性值
+replaceState  替换state中的属性值
+setProps        设置属性
+replaceProps  替换属性
+forceUpdate  强制更新
+findDOMNode  发现dom节点
+isMounted     判断组件挂载状态
+---------------------------------------- 
+生命周期钩子 
+      componentDidMount  加载后调用，
+      componentWillUnmount  关闭页面后销毁
+---------------------------------------
+Ajax异步
+  this.serverRequest = $.get
+   通过jquery实现的
+---------------------------------------
+React 路由
+         Router下面只能包含一个盒子标签，类似这里的div
+         Link代表一个链接，在html界面中会解析成a标签。作为一个链接，必须有一个to属性，代表链接地址。这个链接地址是一个相对路径。
+         Route，是下面要说的组件，有一个path属性和一个组件属性
+---------------------------------------
+vue与React的区别
+     数据的不可变型
+     React 是函数式的思想，数据是单向数据流，react在setState之后会重新渲染组件，而Vue则是响应式，数据会根据用户的改变而改变的。
+    React通过jsx或js来生成html和控制css样式；而vue是把html，css，js组合到一起，用各自的处理方式
+    react是类式的写法，api很少，而vue是声明式的写法，通过传入各种options，api和参数都很多。所以react结合typescript更容易一起写，vue稍微复杂。
+    vue 通过路由的名称改变来进行判断 this.$router.name = '';
+ ------------------------------------------------------------ 
+ 浏览器兼容问题
+     clientWidth/clientHeight 网页可见区域，不包括边框的宽高   offsetWidth/offsetHeight 包括边框宽高
+     scrollHeight/scrollWidth 整个网页宽高
+     event事件问题
+         document.onclick = function(ev){} 谷歌火狐IE9+支持
+         document.onclick = function(){let e = event} 谷歌和IE支持 火狐不支持
+         document.onclick = function(ev){let e = ev || window.event} 三者都坚持
+     DOM节点问题
+         nextElementSibling/previousElementSibling  IE6,7,8
+         获取第一个节点  firstElementChild 非IE678支持  firstChild IE678支持
+         获取最后一个节点  lastElementChild  非IE678支持  lastChild  IE678支持
+     获取类名
+         getElementsByClassName  IE 6 7 8不支持
+     监听事件
+         添加  addEventListener  非IE    attachEvent IE
+         删除  removeEventListener  非IE  detachEvent  IE
+     阻止事件传播
+         event.stopPropagation    w3c标准      window.event.cancelBubble = true  IE
+      阻止默认事件
+         event.preventDefault       w3c标准      window.event.returnValue = false   IE
+      event中的target
+         event.target                     w3c标准      window.event.srcElement     IE
+      鼠标来的位置
+          event.relatedTarget         w3c标准      window.event.formElement  IE
+      鼠标去的位置
+          event.relatedTarget         w3c标准      window.event.toElement      IE
+      火狐下特有的节点加载事件
+               document.addEventListener('DOMContentLoaded',function ( ){},false) 除了IE6-8都可以
+               
+---------------------------------------------------------------------------
+js date 日期
+   getHours() ---- 小时
+   getMinutes() ---- 分钟
+   getSeconds() ---- 秒
+   getDate() ---- 一月中的某一天1-31
+   getDay() ---- 一周中的一天 0-6
+   getFullYear() ---- 返回年份
+   getMilliseconds() ---- 毫秒(0 ~ 999)
+   setFullYear(1992,10,3) ---- 设置具体的日期
+   setDate(myDate.getDate()+5) ---- 设置天数
+   new Date() ---- 可用于比较两个时间大小
+   Date.parse(datestring) ---- 指定日期到1970/1/1之间的毫秒数
+   toString() ---- 将时间对象转化为字符串
+function checkTime(i)
+{
+if (i<10) 
+  {i="0" + i}
+  return i
+}
+-----------------------------------------------------------------------------
+HTML5 标签
+  <track> 用于为video 等元素规定字幕文件或其他包含文本的文件，当媒介播放时，这些文件是可见的
+  
+----------------------------------------------------------------------------
+nodejs
+  ctrl + c - 退出当前终端。
+  ctrl + c 按下两次 - 退出 Node REPL。
+  ctrl + d - 退出 Node REPL.
+  通过require引入所需模块
+  Node.js REPL(Read Eval Print Loop:交互式解释器) 表示一个电脑的环境，类似 Window 系统的终端或 Unix/Linux shell，我们可以在终端中输入命令，并接收系统的响应.
+  输入node 进入终端  通过var 定义变量 且可用console.log打印出来，如果不带var则回车打印出来；_则可以获取上一次表达式的结果；也可以使用do{}while()语句循环打印
+  stream 流 通过fs.createReadStream('input.txt')，引入文件 创造可读流
+  事件 
+  data 有数据
+  end  结束时
+  error 有错误
+  finish 所有数据已写入底层系统中
+  
+  -----------------------------------------
+  this.$router.push 
+  -----------------------------------------
+  处理$router.push 不重新加载页面的问题
+  1. op 作用 在url中不现实传输的参数
+  $router.push({
+				parms：{
+				      op: {
+				        要传的值
+				      } 
+				}
+ })；
+ 
+ this.$router.push({
+						name: 'financial-order-generate',
+						query: {
+							orderNo: _this.$route.query.orderNo,
+							/*
+							如果下货纸下的账单为空，暂且认为该下货纸没有对应的账单，在生成账单时判定是否导入明细
+							*/
+							needAutoImport: _this.tableData.list.length === 0,
+							businessType: _this.$route.query.businessType
+						},
+						params: {
+							op: 'refresh'
+						}
+                            });
+ 2.activated 和 created 方法中接受传过来的参数
+   activated 可用于初始化页面
+   
+ -------------------------------------------
+ HTML5
+  localStorage 
+       .  []  .setItem  来设值
+       .  []  .getItem  来获取值
+       支持同源策略 每一个浏览器是不同的
+       .clear()  清除所有的值
+       . removeItem  清除单个值
+       用localStorage储存json数据 先将数据通过JOSN.stringify 获取的时候通过JSON.parse() 转换一下
+       
+  缓存页面  在HTML 标签添加manifest="demo.appcache" 后缀必为 appcache

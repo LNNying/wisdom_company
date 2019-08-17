@@ -1,0 +1,11 @@
+监控客户端安装包：
+1、AGVMonitorClient_CN_STD_2.1.0_buildxxxxxx_svnxxxx.zip解压出来是客户端的安装文件，双击即可安装；
+2、安装成功后登录平台会和RCS_WEB平台服务器里面的监控客户端进行版本匹配，如果不一致会下载服务器里面最新的客户端；
+3、如果不想更新，安装完成以后打开安装目录（C:\Program Files (x86)\RunMonitor），删除Update.exe 和如果有Temp文件夹也需要删除；
+
+
+监控客户端升级到服务器：
+1、exe文件解压出来替换到服务器D:\hikvision\hikrcs\webapps\update\monitor\bin目录
+2、安装包（综合运行监控客户端_Setup.exe）解压出来替换到webapps\download\MonitorClient
+
+	

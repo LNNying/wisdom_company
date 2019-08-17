@@ -1,0 +1,232 @@
+Received: from MAIL01.CMLOG.LOCAL (192.168.100.102) by MAIL03.CMLOG.LOCAL
+ (192.168.100.105) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id 15.1.1261.35 via
+ Mailbox Transport; Wed, 31 Oct 2018 09:39:41 +0800
+Received: from MAIL03.CMLOG.LOCAL (192.168.100.105) by MAIL01.CMLOG.LOCAL
+ (192.168.100.102) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id 15.1.1261.35; Wed, 31
+ Oct 2018 09:39:40 +0800
+Received: from SPAM.cmlog.com (192.168.100.10) by MAIL03.CMLOG.LOCAL
+ (192.168.100.106) with Microsoft SMTP Server id 15.1.1261.35 via Frontend
+ Transport; Wed, 31 Oct 2018 09:39:40 +0800
+Received: from smtp-out-mess.localdomain ([180.167.29.10])
+	by SPAM.cmlog.com with ESMTP id w9V1dHSI079778
+	for <fengxiaoxia@cmlog.com>; Wed, 31 Oct 2018 09:39:17 +0800 (GMT-8)
+	(envelope-from one@easipass.com)
+Received: from epmsapp3 (unknown [192.168.131.56])
+	by smtp-out-mess.localdomain (Postfix) with ESMTP id 730EE240CE9
+	for <fengxiaoxia@cmlog.com>; Wed, 31 Oct 2018 09:38:40 +0800 (CST)
+Date: Wed, 31 Oct 2018 09:39:17 +0800
+From: <one@easipass.com>
+To: <fengxiaoxia@cmlog.com>
+Message-ID: <1593335544.43293.1540949957777.JavaMail.gcc@epmsapp3>
+Subject: =?GB18030?Q?ONE=B6=A9=B2=D5=C8=B7=C8=CF=BB=D8?=
+ =?GB18030?Q?=D6=B4(=CF=B5=CD=B3=D7=D4=B6=AF=C9=FA=B3=C9,?=
+ =?GB18030?Q?=C7=EB=CE=F0=BB=D8=B8=B4)TA8PUC512900?=
+Content-Type: multipart/mixed;
+	boundary="----=_Part_43291_1831103780.1540949957773"
+Received-SPF: none (SPAM.cmlog.com: domain of one@easipass.com does not designate permitted sender hosts)
+X-DNSRBL:
+X-MAIL: SPAM.cmlog.com w9V1dHSI079778
+Return-Path: one@easipass.com
+X-MS-Exchange-Organization-Network-Message-Id: 485fdc42-0a33-497e-d52d-08d63ed1b9f6
+X-MS-Exchange-Organization-AVStamp-Enterprise: 1.0
+X-MS-Exchange-Organization-AuthSource: MAIL03.CMLOG.LOCAL
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:00.3223059
+MIME-Version: 1.0
+
+------=_Part_43291_1831103780.1540949957773
+Content-Type: multipart/related;
+	boundary="----=_Part_43292_1875275718.1540949957773"
+
+------=_Part_43292_1875275718.1540949957773
+Content-Type: text/html; charset="GBK"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dgb2312">
+<title>ONE=B6=A9=B2=D5=C8=B7=C8=CF=BB=D8=D6=B4</title>
+<style type=3D"text/css">
+</style>
+</head>
+
+<body>
+<table width=3D"930" border=3D"0">
+  <tr>
+    <td width=3D"163" height=3D"53"><img width=3D"132" height=3D"38" src=3D=
+"http://cloud.easipass.com/one/images/login/one.png"></span></td>
+    <td width=3D"492"> <div align=3D"center">
+      <h1><strong>=B6=A9=B2=D5=C8=B7=C8=CF=BB=D8=D6=B4 </strong> </h1>
+    </div></td>
+    <td width=3D"163"><div align=3D"left"></div></td>
+  </tr>
+</table>
+<hr align=3D"left" width=3D"930" noshade=3D"">
+<table width=3D"930" height=3D"37" border=3D"0">
+  <tr>
+    <td width=3D"41"> To: </td>
+    <td width=3D"796">fengxiaoxia@cmlog.com</td>
+  </tr>
+</table>
+<hr align=3D"left" width=3D"930" noshade=3D"">
+<table width=3D"930" border=3D"0">
+  <tr>
+    <td height=3D"24"> <strong>=B8=D0=D0=BB=D1=A1=D4=F1 ONE =CE=AA=C4=FA=CC=
+=E1=B9=A9=B7=FE=CE=F1=A3=A1 ONE =CA=D5=B5=BD=C4=FA=B5=C4=B6=A9=B2=D5=B5=A5=
+=A3=AC=C8=E7=CF=C2=CF=E0=B9=D8=C4=DA=C8=DD=C7=EB=C8=B7=C8=CF=CE=DE=CE=F3 </=
+strong> </td>
+  </tr>
+</table>
+<table width=3D"930" border=3D"0">
+  <tr>
+    <td width=3D"122" height=3D"24"> <strong>Booking No: </strong> </td>
+    <td width=3D"172">TA8PUC512900</td>
+    <td width=3D"164"> <strong>Booking Ref. No.: </strong> </td>
+    <td width=3D"178">TA8PUC512900</td>
+    <td width=3D"135"> <strong>Booking Date: </strong> </td>
+    <td width=3D"133">2018-10-30</td>
+  </tr>
+</table>
+<hr align=3D"left" width=3D"930" noshade=3D"">
+<table width=3D"930" border=3D"0">
+  <tr>
+    <td width=3D"156" rowspan=3D"3"> <div align=3D"left"><strong>=B7=A2=BB=
+=F5=C8=CB</strong>: </div></td>
+    <td width=3D"268" rowspan=3D"3">WEIFANG TRICOL TRADING CO., LTD.<br>NO.=
+338 DONGFENG EAST STREET<br>WEIFANG SHANDONG CHINA</td>
+    <td width=3D"228" height=3D"24"> Export Ref.NO(=D4=CB=B1=E0=BA=C5):</td=
+>
+    <td width=3D"260" height=3D"24">TA8PUC512900</td>
+  </tr>
+  <tr>
+    <td height=3D"24"> <strong>B/L No.:</strong></td>
+    <td height=3D"24">TA8PUC512900</td>
+  </tr>
+  <tr>
+    <td height=3D"24">&nbsp;</td>
+    <td height=3D"24">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height=3D"24"> <strong>=BB=F5=B4=FA:</strong></td>
+    <td height=3D"24">CHINA MASTER LOGISTICS CO.,LTD</td>
+    <td height=3D"24"> S/C No(=D4=BC=BA=C5):</td>
+    <td height=3D"24">ATLB00250</td>
+  </tr>
+</table>
+<hr align=3D"left" width=3D"930" noshade=3D"">
+<table width=3D"930" height=3D"24" border=3D"0">
+  <tr>
+    <td width=3D"188" height=3D"24"> <strong>Pre Carrier(=D6=A7=CF=DF=B4=AC=
+)</strong>: </td>
+    <td width=3D"351" height=3D"28"></td>
+    <td width=3D"92"> <strong>ETA/ETD:</strong></td>
+    <td width=3D"204">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width=3D"188" height=3D"24"> <strong> Trunk Vessel(=C4=B8=B4=AC)</s=
+trong>: </td>
+    <td width=3D"351" height=3D"28">AL DAHNA &nbsp; 007W</td>
+    <td width=3D"92"> <strong>ETA/ETD:</strong></td>
+    <td width=3D"204">&nbsp;</td>
+  </tr>
+</table>
+<table width=3D"930" border=3D"0">
+  <tr>
+    <td width=3D"151" height=3D"24"> <strong>=CA=D5=BB=F5=B5=D8:</strong></=
+td>
+    <td width=3D"269" height=3D"24">QINGDAO</td>
+    <td width=3D"148" height=3D"24"> <strong>=C6=F0=D4=CB=B8=DB:</strong></=
+td>
+    <td width=3D"344" height=3D"24">QINGDAO</td>
+  </tr>
+  <tr>
+    <td height=3D"24"> <strong>=D0=B6=BB=F5=B8=DB:</strong></td>
+    <td height=3D"24">ROTTERDAM</td>
+    <td height=3D"24"> <strong>=C4=BF=B5=C4=B8=DB:</strong></td>
+    <td height=3D"24">ROTTERDAM</td>
+  </tr>
+</table>
+<hr align=3D"left" width=3D"930" noshade=3D"">
+<table width=3D"930" height=3D"24" border=3D"0">
+  <tr>
+    <td width=3D"113" height=3D"24"> =CF=E4=D0=CD=CF=E4=C1=BF:</td>
+    <td width=3D"730" height=3D"24">40HQ*1  </td>
+  </tr>
+</table>
+<table width=3D"930" border=3D"0">
+  <tr>
+    <td width=3D"589" height=3D"24">      <strong>=BB=F5=C3=FB </strong> </=
+td>
+    <td width=3D"331" height=3D"24"> <strong>=C3=AB=D6=D8 </strong> </td>
+  </tr>
+  <tr>
+    <td height=3D"24">MICROFIBER WIPERS^S/C NO.ATLB00250^**PHONE: &#43;31 (=
+0)412-667061 EMAIL:^PLANNING_ND_OSSNL@XPOLOGISTICS.COM^TAX ID:GB44580952700=
+6<br>***PHONE: 31 180 555 000^EMAIL: SANDER.DENAREND@EXPEDITORS.COM</td>
+    <td height=3D"24">7418.0</td>
+  </tr>
+  <tr>
+    <td height=3D"24">&nbsp;</td>
+    <td height=3D"24">&nbsp;</td>
+  </tr>
+</table>
+<table width=3D"930" height=3D"24" border=3D"0">
+  <tr>
+    <td width=3D"110" height=3D"24"> <strong>=BD=F8=B8=DB=C2=EB=CD=B7:</str=
+ong></td>
+    <td width=3D"734" height=3D"24">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height=3D"24"> =B5=D8=D6=B7:</td>
+    <td height=3D"24">&nbsp;</td>
+  </tr>
+</table>
+<hr align=3D"left" width=3D"930" noshade=3D"">
+<div align=3D"left"></div>
+<table width=3D"930" border=3D"0">
+  <tr>
+    <td width=3D"238" height=3D"24"> <strong>=CC=D8=D6=D6=BB=F5=CE=EF=D0=C5=
+=CF=A2:</strong></td>
+    <td width=3D"282" height=3D"24">&nbsp;</td>
+    <td width=3D"182" height=3D"24">
+							<input type=3D"checkbox">=D7=D4=B1=B8=CF=E4
+			</td>
+    <td width=3D"210" height=3D"24">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height=3D"24">=20
+							<input type=3D"checkbox">=CE=A3=CF=D5=C6=B7
+			</td>
+    <td height=3D"24">
+							<input type=3D"checkbox">=C0=E4=B6=B3=CF=E4(=CE=C2=B6=C8=C9=E8=D6=C3=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; )
+			 </td>
+    <td height=3D"24"> <input type=3D"checkbox">=CC=D8=D6=D6=CF=E4</td>
+    <td height=3D"24"> <input type=3D"checkbox">=C9=A2=D7=B0</td>
+  </tr>
+</table>
+<hr align=3D"left" width=3D"930" noshade=3D"">
+<table width=3D"930" height=3D"28" border=3D"0">
+  <tr>
+    <td height=3D"24"> <div align=3D"center">=C3=E2=D4=F0=CC=F5=BF=EE=A3=BA=
+=C9=CF=CA=F6=C4=DA=C8=DD=C8=E7=D2=F2=B2=D5=CE=BB=B5=F7=D5=FB=BB=F2=B4=AC=C6=
+=DA=B8=FC=B8=C4=B2=FA=C9=FA=B5=C4=B2=BB=CD=AC=A3=AC=BB=F2=B2=BB=D7=F6=C1=ED=
+=D0=D0=CD=A8=D6=AA=A1=A3 =BE=B4=C7=EB=C1=C2=BD=E2=A3=A1 </div></td>
+  </tr>
+</table>
+<hr align=3D"left" width=3D"930" noshade=3D"">
+<table width=3D"930" height=3D"28" border=3D"0">
+  <tr>
+    <td height=3D"24"> <div align=3D"center">=B8=C3=D3=CA=BC=FE=CE=AA=CF=B5=
+=CD=B3=D7=D4=B6=AF=C9=FA=B3=C9=A3=AC=C7=EB=CE=F0=BB=D8=B8=B4 </div></td>
+  </tr>
+</table>
+<hr align=3D"left" width=3D"930" noshade=3D"">
+</body>
+</html>
+
+------=_Part_43292_1875275718.1540949957773--
+
+------=_Part_43291_1831103780.1540949957773--

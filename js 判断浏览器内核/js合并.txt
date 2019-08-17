@@ -1,0 +1,19 @@
+let data ===> 相同币种的数据组对象
+
+completeMoney(data) {
+	let tmep = [];
+	let list = {};
+
+	data.forEach((item, index) => {
+		if (!list[item.customer]) {
+			tmep.push(item);
+			list[item.customer] = true;
+		} else {
+			tmep.forEach((el, i) => {
+				if (el.customer == data[index].customer) {
+					el.money = el.money + data[index].money;
+				}
+			});
+		}
+	});
+}

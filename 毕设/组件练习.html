@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="./lib/vue-2.4.0.js"></script>
+  <link rel="stylesheet" href="./lib/bootstrap-3.3.7.css">
+  <style>
+   
+  </style>
+</head>
+
+<body>
+  <div id="app">
+	<my-main></my-main>	
+  </div>
+  
+  <template id="temp1">
+	  <div class="container">
+		  <table class="table table-bordered text-center" border="1">
+			  <thead>
+				  <tr>
+					  <th class="center">编号</th>
+					  <th class="center">名称</th>
+					  <th class="center">单价</th>
+					  <th class="center">数量</th>
+					  <th class="center">总价</th>
+				  </tr>
+			  </thead>
+			  <my-tr v-bind:arrs="list"></my-tr>
+		  </table>
+	  </div>
+  </template>
+  
+  <template id="temp2">
+	  <tbody>
+		  <tr v-for="(value,index) in arrs">
+			  <td>{{index+1}}</td>
+			  <td>{{value.name}}</td>
+			  <td>{{value.price}}</td>
+			  <td>
+				  <input type="button" />+
+				  <span>{{value.count}}</span>
+				  <input type="button" />-
+			  </td>
+			  <td>{{value.sum}}</td>
+		  </tr>
+		  <tr>
+			  <td colspan="5">{{sum}}</td>
+		  </tr>
+	  </tbody>
+  </template>
+ 
+
+
+  <script>
+	  
+	  
+	  Vue.component('my-main',{
+		  template:'#temp1',
+		  data:(){
+			  return{
+				  list:[
+					  { pname:'apple',price:3,count:2,sum:6} ,
+					  { pname:'pear',price:4,count:2,sum:13} ,
+					  { pname:'banana',price:5,count:2,sum:20} ,
+				  ]
+			  }
+		  }
+	  })
+	  
+	  Vue.component('my-tr',{
+		  porps:['arr'],
+		  template:'#temp2',
+		  data(){
+			  return{
+				  sum:38
+			  }
+		  }
+	  })
+	  
+	  
+    // 创建 Vue 实例，得到 ViewModel
+    var vm = new Vue({
+      el: '#app',
+      data: {},
+      methods: {},
+	  
+    });
+  </script>
+</body>
+
+</html>

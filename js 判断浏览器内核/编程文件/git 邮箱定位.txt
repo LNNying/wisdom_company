@@ -1,0 +1,8 @@
+git reset --soft bb6b372b993b77eee6dc010bc03194a0ad3994c0
+
+git commit
+
+git push  
+
+
+有可能提交时候的邮箱不对

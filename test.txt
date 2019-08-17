@@ -1,0 +1,217 @@
+﻿Controller:
+    /**
+     * 根据入库主单单号获取入库单详情
+     * @param orderNo
+     * @return
+     */
+    @GetMapping(value = "/selectInstockDetail/{orderNo}")
+    public Result selectInstockOrderDetail(@PathVariable String orderNo) {
+        return new Result(instockOrderDetailService.selectInstockOrderDetail(orderNo));
+    }
+
+
+Service:
+    /**
+     * 根据库主单单号获取入库详情
+     * @param orderNo
+     * @return
+     */
+    @Override
+    public List<InstockOrderDetailDTO> selectInstockOrderDetail(String orderNo) {
+        if (orderNo == null || orderNo.isEmpty()){
+            throw new BusinessException("缺少入库单单号");
+        }
+
+        return instockOrderDetailMapStruct.toDto(instockOrderDetailMapper.selectInstockDetail(orderNo));
+    }
+
+
+Mapper(接口):
+    List<InstockOrderDetail> selectInstockDetail(String orderNo);
+
+
+Mapper(xml):
+    <select id="selectInstockDetail" resultType="com.wisdom.domain.instock.InstockOrderDetail" resultMap="BaseResultMap">
+      select <include refid="Base_Column_List" /> from instock_order_detail
+      where 1=1
+      and delete_flag = 0
+      and order_no = #{orderNo}
+      order by last_modified_time desc
+    </select>
+
+
+domain:
+    
+    @Getter
+    @Setter
+    @Table(name = "instock_order_detail")
+    public class InstockOrderDetail {
+        /**
+        * 自增主键
+        */
+        @Id
+        private Integer id;
+
+        /**
+        * 入库主单id
+        */
+        @Column(name = "instaock_order_id")
+        private String instaockOrderId;
+
+        /**
+        * 业务单据编号（冗余）
+        */
+        @Column(name = "order_no")
+        private String orderNo;
+
+        /**
+        * 子单编号
+        */
+        @Column(name = "sub_order_no")
+        private String subOrderNo;
+
+        /**
+        * 物料编号
+        */
+        @Column(name = "mat_code")
+        private String matCode;
+
+        /**
+        * 工厂编号
+        */
+        @Column(name = "plant_code")
+        private String plantCode;
+
+        /**
+        * 优先级
+        */
+        private String priority;
+
+        /**
+        * 批次号
+        */
+        @Column(name = "batch_num")
+        private String batchNum;
+
+        /**
+        * 特殊库存标识
+        */
+        @Column(name = "spe_stk_flag")
+        private String speStkFlag;
+
+        /**
+        * 特殊库存编号
+        */
+        @Column(name = "spe_stk_num")
+        private String speStkNum;
+
+        /**
+        * 预计入库时间
+        */
+        @Column(name = "expected_date")
+        private Date expectedDate;
+
+        /**
+        * 物料数量
+        */
+        @Column(name = "mat_qty")
+        private BigDecimal matQty;
+
+        /**
+        * 物料单位
+        */
+        @Column(name = "mat_unit")
+        private String matUnit;
+
+        /**
+        * 货主
+        */
+        @Column(name = "cargo_owner")
+        private String cargoOwner;
+
+        /**
+        * 备注
+        */
+        private String remark;
+
+        /**
+        * 预留子单属性
+        */
+        @Column(name = "sub_order_prop1")
+        private String subOrderProp1;
+
+        /**
+        * 预留子单属性
+        */
+        @Column(name = "sub_order_prop2")
+        private String subOrderProp2;
+
+        /**
+        * 预留子单属性
+        */
+        @Column(name = "sub_order_prop3")
+        private String subOrderProp3;
+
+        /**
+        * 预留子单属性
+        */
+        @Column(name = "sub_order_prop4")
+        private String subOrderProp4;
+
+        /**
+        * 预留子单属性
+        */
+        @Column(name = "sub_order_prop5")
+        private String subOrderProp5;
+
+        /**
+        * 有效标记，0有效，1无效
+        */
+        @Column(name = "valid_flag")
+        private Integer validFlag;
+
+        /**
+        * 删除标记，0未删除，1删除
+        */
+        @Column(name = "delete_flag")
+        private Integer deleteFlag;
+
+        /**
+        * 创建人
+        */
+        @Column(name = "created_by")
+        private Integer createdBy;
+
+        /**
+        * 创建时间
+        */
+        @Column(name = "created_time")
+        private Date createdTime;
+
+        /**
+        * 最后修改人
+        */
+        @Column(name = "last_modified_by")
+        private Integer lastModifiedBy;
+
+        /**
+        * 最后修改时间
+        */
+        @Column(name = "last_modified_time")
+        private Date lastModifiedTime;
+
+        /**
+        * 已入库数量
+        */
+        @Column(name = "in_storage_num")
+        private BigDecimal inStorageNum;
+
+        /**
+        * 单据明细状态,如0：已创建登
+        */
+        @Column(name = "order_detail_status")
+        private String orderDetailStatus;
+    }
+
+DTO:
+    和domain一样

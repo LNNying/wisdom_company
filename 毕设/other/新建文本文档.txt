@@ -1,0 +1,20 @@
+const lang = window.localStorage.lang || localLang || 'zh-CN';
+
+
+
+
+humidity
+temperature
+ventilationDegree
+containHunTemVen
+
+
+     if (this.shipInfo.orderNo != '' || this.shipInfo.orderNo != null) {
+                        this.readOrderNo = false;
+                    } else {
+                        this.readOrderNo = true;
+                    }
+                    192.168.0.13
+                    10.67.144.145
+                    
+                    

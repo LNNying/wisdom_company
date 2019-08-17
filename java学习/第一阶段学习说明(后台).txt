@@ -1,0 +1,39 @@
+java第一阶段学习说明：
+第一阶段的学习任务
+	1. 环境搭建，java数据类型，修饰符，条件语句，循环语句，数组，异常处理等。
+	2. java面向对象，继承，封装，多态，抽象类，接口，集合，泛型，注解，多线程和maven的学习。
+	主要是java语言的基础。
+	使用java语言，JDK版本为8。推荐ide：IntelliJ IDEA（有社区版）。
+可根据参考学习资料学习，也可以自己在网上找资料学习。重要的适合自己,能明白。对于遇到的问题可以上网查询
+## Java基础&高级
+
+4月26日-5月2日
+Java简介，JDK安装与配置，数据类型，变量，运算符，流程控制（循环结构、条件语句），String类型，数组
+参考教程： 
+	> 请通读书本，跟着书本跟着视频教程学习。http://www.runoob.com/java/java-basic-syntax.html
+	> 可以跟随[慕课网]https://www.imooc.com/course/list?c=java&sort=pop
+5月3日-5月8日
+面向对象，继承封装多态，接口和抽象类，包装类，集合，异常，IO流处理，枚举类型，注解，反射，java8新特性
+参考教程： 
+	> 请通读书本，跟着书本跟着视频教程学习。http://www.runoob.com/java/java-basic-syntax.html
+	> 可以跟随[慕课网]https://www.imooc.com/course/list?c=java&sort=pop
+	> 注解 https://www.cnblogs.com/xdp-gacl/p/3622275.html
+5月9日-5月10日
+Maven的基本概念，Maven安装，Maven的简单使用
+参考教程： 
+	> maven教程： https://www.yiibai.com/maven/maven_environment_setup.html
+
+#### 重点学习
+> - 循环结构、条件语句
+> - 基本数据类型和引用类型
+> - 数组、泛型、枚举
+> - 集合：list集合、map集合等
+> - 面向对象：封装、继承、多态
+> - 接口和抽象类
+> - 学习java8新特性：lambda表达式
+
+
+
+第一阶段的学习时间5月10号。5月10号会给大家发来题目，大家做一下，看看大家的学习情况。
+
+

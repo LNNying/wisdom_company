@@ -1,0 +1,20 @@
+# Razor C#语法  代码块在@{}中 变量表达式以@开头 以;结束 用var声明变量  字符串用()括起  区分大小写 
+# Razor VB语法  代码块在@Code..End Code中 变量表达式以@开头 用dim声明变量 字符串用()括起 不区分大小写
+# RenderPage() 导入页面
+# 布局页 @RenderBody()与@{Layout="Layout.cshtml";}连用
+# 防止文件被浏览 文件名前加下划线
+# ~运算符规定虚拟路径  使用Server.MapPath Href 编译虚拟路径
+# File.ReadAllLines 得到文件中一行
+# C#中字符串前加@可以转义\等特殊字符
+# C#指针类型 如type* 
+# C#必须大写字母开头
+# C#Console.ReadLine 读取控制台数据
+# C#可空类型 单问号 如 int? i ;
+# C# Null 合并运算符用于定义可空类型和引用类型的默认值。(??)
+# C# Console.WriteLine("{0}还可以这样{1}哦。", i, s) {0}代表i {1}代表s 依次类推
+# C#继承 用:不用extends
+# ASP.net 每一句都要加分号
+# C#字符转化为数字 int.Parse("1")
+# asp.net WebForm RadioButtonList  添加AutoPostButton属性才能调用自己的事件  同理RadioButton也一样
+# C# 添加数组元素 List<int> ba = balance.ToList(); ba.Add(); 循环ba.Count();
+# C#

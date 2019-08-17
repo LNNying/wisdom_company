@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsReferno" targetNamespace="http://tempuri.org/dsReferno.xsd" xmlns:mstns="http://tempuri.org/dsReferno.xsd" xmlns="http://tempuri.org/dsReferno.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsReferno" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsReferno" msprop:Generator_DataSetName="dsReferno">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="REFNAMES" msprop:Generator_UserTableName="REFNAMES" msprop:Generator_RowDeletedName="REFNAMESRowDeleted" msprop:Generator_RowChangedName="REFNAMESRowChanged" msprop:Generator_RowClassName="REFNAMESRow" msprop:Generator_RowChangingName="REFNAMESRowChanging" msprop:Generator_RowEvArgName="REFNAMESRowChangeEvent" msprop:Generator_RowEvHandlerName="REFNAMESRowChangeEventHandler" msprop:Generator_TableClassName="REFNAMESDataTable" msprop:Generator_TableVarName="tableREFNAMES" msprop:Generator_RowDeletingName="REFNAMESRowDeleting" msprop:Generator_TablePropName="REFNAMES">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REFNAME" msprop:Generator_UserColumnName="REFNAME" msprop:Generator_ColumnVarNameInTable="columnREFNAME" msprop:Generator_ColumnPropNameInRow="REFNAME" msprop:Generator_ColumnPropNameInTable="REFNAMEColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="REFVALUES" msprop:Generator_UserTableName="REFVALUES" msprop:Generator_RowDeletedName="REFVALUESRowDeleted" msprop:Generator_RowChangedName="REFVALUESRowChanged" msprop:Generator_RowClassName="REFVALUESRow" msprop:Generator_RowChangingName="REFVALUESRowChanging" msprop:Generator_RowEvArgName="REFVALUESRowChangeEvent" msprop:Generator_RowEvHandlerName="REFVALUESRowChangeEventHandler" msprop:Generator_TableClassName="REFVALUESDataTable" msprop:Generator_TableVarName="tableREFVALUES" msprop:Generator_RowDeletingName="REFVALUESRowDeleting" msprop:Generator_TablePropName="REFVALUES">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REFNAME" msprop:Generator_UserColumnName="REFNAME" msprop:Generator_ColumnVarNameInTable="columnREFNAME" msprop:Generator_ColumnPropNameInRow="REFNAME" msprop:Generator_ColumnPropNameInTable="REFNAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ORIGINAL" msprop:Generator_UserColumnName="ORIGINAL" msprop:Generator_ColumnVarNameInTable="columnORIGINAL" msprop:Generator_ColumnPropNameInRow="ORIGINAL" msprop:Generator_ColumnPropNameInTable="ORIGINALColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="REFNO" msprop:Generator_UserColumnName="REFNO" msprop:Generator_ColumnVarNameInTable="columnREFNO" msprop:Generator_ColumnPropNameInRow="REFNO" msprop:Generator_ColumnPropNameInTable="REFNOColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="REFNAMES_REFVALUES" msdata:parent="REFNAMES" msdata:child="REFVALUES" msdata:parentkey="REFNAME" msdata:childkey="REFNAME" msprop:Generator_UserRelationName="REFNAMES_REFVALUES" msprop:Generator_RelationVarName="relationREFNAMES_REFVALUES" msprop:Generator_UserChildTable="REFVALUES" msprop:Generator_UserParentTable="REFNAMES" msprop:Generator_ParentPropName="REFNAMESRow" msprop:Generator_ChildPropName="GetREFVALUESRows" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

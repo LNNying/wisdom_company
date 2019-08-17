@@ -1,0 +1,9 @@
+w -------- git clone ssh://liuningning@192.168.102.6:29418/wisdom_ocr_front
+z  --------- git clone ssh://liuningning@192.168.102.6:29418/zc-admin-frontend --recursive
+
+
+
+解决组织架构中组织电话不能保存的问题
+调整员工页面，添加clearable清除属性
+(navigator.userAgent.indexOf
+

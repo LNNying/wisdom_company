@@ -1,0 +1,31 @@
+#### 第二阶段的学习任务
+
+SpringBoot的基本概念，MySQL语句，tomcat(了解)。
+
+spring概况, springIOC容器，Bean装配 1天
+
+SpringBoot概况:  2天
+
+@RestController，@Service，@Autowired, @RequestMapping等注解 3天
+
+Restful API  2天
+
+MySQL的增删改查(单表、多表、分页) 3天
+
+##### 推荐教程
+
+spring学习： https://www.imooc.com/learn/196
+MySQL： https://www.imooc.com/learn/122
+springMvc： 百度网盘 链接: https://pan.baidu.com/s/1JWD-GLV681GDOTT4cUB4AQ 提取码: az8e 
+###### 说明：
+​	教程可以先挑重点看，springMVC中关于视图，重定向，modelAttribute,国际化的不用看，重点内容是RequestMapping,如何接收参数，springMVC实现RestFulAPI,实现CRUD
+
+​	mysql看完前五部分就可以了，后面的函数和存储过程可以先不看
+
+​	spring的基本知识，如IOC和aop等，可能你没有很理解，也能把项目做出来，但是以后可能遇到很多问题，建议大家也要好好学习一下
+
+#### 考核要求：
+​	能够运行本地服务，实现简单的RestfulAPI（get,post,delete,put还有上传等），MySQL的复杂查询
+
+
+第二阶段的学习时间5月24号。5月24号会给大家发来题目，大家做一下，看看大家的学习情况。

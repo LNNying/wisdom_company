@@ -1,0 +1,185 @@
+it.kaikeba.com
+-----------数组方法
+push   在数组后一次插入数值
+pop    删除数组最后一个数值，并返回该数值
+unshift   在数组的顶部依次插入数值
+shift  删除数组顶部数值并返回该数值
+length  获取数组长度
+reverse  倒序
+sort  排序字符串  默认为升序  可包含方法  .sort((a,b)=>{return a - b}) --- 升序
+join  通过指定的字符将数组连接成字符串
+concat 将指定的数组连接成一个数组
+slice   返回起始位置到结束位置的元素  
+splice  删除 参数一为删除元素的下标   参数二为删除的个数   
+						插入  参数包括   起始位置，0，和要插入的元素   
+						替换  参数包括   起始位置，删除项数和替换元素  返回删除的元素
+indexOf()  获取下表  没有返回-1  从前往后查找
+lastIndexOf  获取下表  没有返回-1  从后往前查找
+迭代方法
+forEach 
+filter
+map
+every   数组的元素都为true时返回true   并操作   
+some   数组的有一个元素为true时返回true  或操作
+
+-------正则
+/g 全局匹配
+/i 忽略大小写
+/m 多行匹配
+$  结尾
+^  开头
+\  转换符
+\d 代表0-9
+.  单个单词
+\w 单个单词
+[] ---- 区间范围 [a-z]
+{} ---- 数量 {min, max} {,max}
+() ---- 区分 
+\1,\2... 等代表第几个括号(重复第几个括号的匹配内容) 必须括号连用 返回新数组的长度
+[ \f\r\t\n] //匹配所有的白字符
+1. pattern.test(变量)
+2. new RegExp(变量，标志)
+
+let array = ['a','b']
+let elements = [0,1,2]
+array.push.apply(array,elements);  ----------apply 可用于将一个追加到另一个数组的矩阵中
+
+----------字符串
+charAt    返回下标的单个字符
+charCodeAt  返回字符编码
+concat    连接多个字符串
+slice     参一 起始位置 参二 结束位置 可为负数
+substring  参一 起始位置  参二 结束位置 可为负值 但转化为0
+substr    参一 起始位置  参二 结束位置 可谓负数 但转化为0
+indexOf  指定字符返回下标 没有返回-1
+lastIndexOf 返回最后一次出现的下标
+trim    去除左右空格 trimLeft trimRight
+toLocalLowerCase/toLocalUpperCase/toLowerCase/toUpperCase  转化大小写
+match   匹配与test/exec一样
+search  可根据匹配模式查找返回位置，否则返回-1
+replace  替换 可根据匹配模式替换 参二替换字符串 也可为函数 参一匹配项 参二位置 参三 原始项
+split   通过指定字符分割字符串为数组 参二为分割个数
+localeCompare  比较在前返回-1 在后返回+1 相等返回0 区分大小写
+fromCharCode  根据多个字符编码返回字符串
+uir编码方法
+  encodeURI 用于对整个uir  不会对特殊字符如#/等编码  只有空格替换为%20  
+  decodeUIR 进行解码
+  encodeRIUComponent  用于对uir部分  会对特殊字符如#/等进行编码
+  decodeUIRComponent  进行解码
+  eval() 有用 可用于json转化 -------------------------------------------/////////////百度
+window  全局对象
+----------变量  let const
+let：
+		可修改
+        不能重复声明
+const：
+	   不能重复赋值
+       不能重复声明
+块级作用域
+{
+}
+
+----------函数
+箭头函数
+ 如果只有一个参数（）可以省
+ 如果只有一个return箭头可以省   
+ <!--去function加=>-->
+ function () {}  -- 普通函数
+ ()=>{}
+ .filter(function(item){})  普通函数
+ .filter(item=>{}) 或者
+ .filter((item)=>{})
+ .filter(item=>item.id)   ----只有一个return
+ 
+ ---------函数的参数
+ 1.参数展开和扩展
+ 
+ function name(a,b, ...args){}   ---args(任意)多余参数的数组，必须在最后
+ 
+ 展开数组 ...arr
+ 
+ ------------解构赋值
+ 1.左右两边解构一样
+ 2.右边必须有值
+ 3.声明和赋值不能分开
+ 可以根据右边数据结构和规定左边的数据结构
+ 如 [a,b,c] = [1,2,3]---数组
+    {a,b,c} = {a:1,b:2,c:3}---json  也可以let json = {a:1,b:2,c:3}
+	
+------------数组
+1. map --- 映射  又返回值 一个对一个 返回值与原数组长度相同
+   let arr = [1,2,4];
+   arr.map(item=>{item*2});
+   
+2.reduce ---汇总 得总数   返回值
+reduce(function(a,b,c))   a---最终结果  b---数值  c---下标index  加法运算一样
+ a+b 的最终结果
+ 平均数
+ if(index == arr.length - 1){return (a+b)/arr.length}
+
+3.filter ---过滤          返回过滤的数组
+  filter(item=>{return item > 2})  
+
+4.forEach --- 迭代     没有返回值
+forEach((item,index)=>{return item})
+
+5. Set 函数-----------可用于函数去重
+let arr = new Set();
+有时候push添加元素不好使，可以使用add进行添加
+
+--------------------字符串                     ======毕设中可能用到
+startsWith    返回bool值   以什么开头    可用于判断地址
+endsWith     返回bool值   以什么结尾    可用于判断扩展名
+模板字符串 用``    ${} 用于引用变量
+
+--------------------面向对象
+class User {
+constructor (){}
+name() {}
+}
+继承 
+新：      
+class Vip extend User{
+constructor (name, age,level){
+	super(name, age);
+}
+}
+
+------------------json
+JSON.stringify()
+JSON.parse()
+
+-----------------promise  ----------- 消除异步操作
+let p = new Promise(function(resolve, reject){
+     $.ajax({
+     success(date){
+     resolve(date);
+     },
+     error(){
+     reject();
+     }
+     })
+});
+p.then(function(date){}, function(err){});
+或
+Promise.all([p1,p2]).then();  p1,p2 两个new 的promise
+jquery 中的$.ajax()中有promise
+Promise.all({$.ajax,$.ajax}).then();
+Promise.race([]) 多个异步操作  竞速 那个速度快 调用那个
+
+---------------------generator  生成器   中间能暂停   走走停停
+function *show() {
+alert('a');
+yield ;                             -------------- 暂时停止
+alert('b');
+}
+let genObj = show()   ---------- 生成generator对象
+genObj.next()  ------------调用
+
+yield （放弃）作用 既可以传参又可以返回值
+next(12)  可以传参
+let a  = yield;  第一个next传参是没有用
+返回中间结果
+yield 12;
+next 可以返回yield 返回的值 {value: 值， done：是否执行完}
+let a = yield 值  a 可以用于下面的操作 最后return回去   yield可以看作墙分开每一个操作  看截图

@@ -1,0 +1,65 @@
+//去重
+function dedupe(array) {
+  return Array.from(new Set(array));
+}
+//过滤
+list:[],
+newList:[],   //放在data中
+this.mtxxList // 要加载数据
+filter() {
+                // alert(this.searchData.loadNum);
+                if (this.searchData.loadNum !== '' || this.searchData.loadNum.trim().length !== 0) {
+                    this.newList = this.mtxxList.filter(item => {
+                        return item.TDH == this.searchData.loadNum;
+                    });
+                } else if (this.searchData.loadNum === '') {
+                    this.newList = this.mtxxList;
+                } else {
+                    this.newList = [];
+                }
+            },
+   newGive() {
+         this.newList = this.mtxxList;
+     }
+      mounted() {
+             this.newGive();
+             this.loadData();   // 渲染页面加载数据
+        }
+
+//数据化视图
+    注意：
+          二维视图：1. 如果通过一个类型显示不同的颜色
+                                 series中data 前面可以 封装成对象  item= {name : name, value:value}
+                                 然后 itemStyle:{
+                                normal:{
+                                    color: function (params) {   // 根据in 和 out 判断显示颜色
+                                        if(params.data.dataType == 'OUT'){
+                                                return 'blue';
+                                            }else{
+                                                return 'red';
+                                            }
+                                        },
+                                    label:{
+                                        formatter:function(value){return value+"%";}
+                                    }
+                                }
+                            
+                            2.自定义tooltip提示信息
+                            formatter: function (params) {       // 格式化提示信息
+                            if(params[0].data.dataType == "IN"){
+                                var name = params[0].seriesName = '入库';
+                                var value = params[0].data.value+'%';
+                                return ('箱号:'+params[0].axisValue
+                                    +'</br>当前值:'+value
+                                    +'<br>类型:'+ name
+                                );
+                            }else{
+                                var name = params[0].seriesName = '出库';
+                                var value = params[0].data.value+'%';
+                                return ('箱号:'+params[0].axisValue
+                                    +'</br>当前值:'+value
+                                    +'<br>类型:'+ name
+                                );
+                            }
+                        },
+                        3. legend中的data 是和  series中name想关联的

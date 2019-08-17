@@ -1,0 +1,36 @@
+
+            "orderNo": "234234234234",//业务单据编号
+            "subOrderNo": "123123123123",//子单编号
+            "matCode": "10500305",//物料编号
+            "plantCode": null,//工厂编号
+            "priority": null,//优先级
+            "batchNum": null,//批次号
+            "speStkFlag": null,//特殊库存标识
+            "speStkNum": null,//特殊库存编号
+            "expectedDate": 1551776639000,//预计入库时间
+            "matQty": 4,//物料数量
+            "matUnit": "个",//物料单位
+            "cargoOwner": null,//货主
+            "createdTime": 1551776639000,//'创建时间',
+            "inStorageNum": 4,//'已入库数量（入库时反写）',
+            "orderDetailStatus": "2"//单据明细状态
+
+注意: 时间的查询有两个,开始和结束时间
+
+//创建开始时间
+        public Nullable<long> startCreateTime { get; set; }
+        //创建结束时间
+        public Nullable<long> endCreateTime { get; set; }
+        //预计入库开始时间
+        public Nullable<long> startExpectedDate { get; set; }
+        //预计入库结束时间
+        public Nullable<long> endExpectedDate { get; set; }
+		
+		order by last_modified_time desc
+		
+		1551776620000
+		1551776660000
+		
+		
+		1551776620000
+		1551776660000

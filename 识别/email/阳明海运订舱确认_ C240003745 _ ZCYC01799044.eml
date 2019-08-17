@@ -1,0 +1,170 @@
+Received: from MAIL03.CMLOG.LOCAL (192.168.100.105) by MAIL03.CMLOG.LOCAL
+ (192.168.100.105) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id 15.1.1261.35 via
+ Mailbox Transport; Tue, 30 Oct 2018 11:24:47 +0800
+Received: from MAIL03.CMLOG.LOCAL (192.168.100.105) by MAIL03.CMLOG.LOCAL
+ (192.168.100.105) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id 15.1.1261.35; Tue, 30
+ Oct 2018 11:24:46 +0800
+Received: from SPAM.cmlog.com (192.168.100.10) by MAIL03.CMLOG.LOCAL
+ (192.168.100.106) with Microsoft SMTP Server id 15.1.1261.35 via Frontend
+ Transport; Tue, 30 Oct 2018 11:24:46 +0800
+Received: from MAILGW.yangming.com (mailgw.yangming.com [61.219.117.194])
+	by SPAM.cmlog.com with ESMTP id w9U3OQRi024817
+	for <lineryml@cmlog.com>; Tue, 30 Oct 2018 11:24:26 +0800 (GMT-8)
+	(envelope-from wis@yml.com.cn)
+X-TM-IMSS-Message-ID: <6b9da1710001946d@mailgw.yangming.com>
+Received: from ns.yml.com.cn ([10.140.2.5]) by mailgw.yangming.com ([10.7.237.235]) with ESMTP (TREND IMSS SMTP Service 7.5) id 6b9da1710001946d ; Tue, 30 Oct 2018 11:24:21 +0800
+Received: from CNSHA-WEBSERVER.cn.yangming.com ([10.140.2.13])
+	by ns.yml.com.cn (8.14.4/8.14.1) with ESMTP id w9U3Ghqm047182;
+	Tue, 30 Oct 2018 11:16:43 +0800
+Message-ID: <201810300316.w9U3Ghqm047182@ns.yml.com.cn>
+Subject: =?GB2312?Q?=D1=F4=C3=F7=BA=A3=D4=CB=B6=A9=B2=D5=C8=B7=C8=CF:_C240003745_/_ZCYC01799044?=
+Sender: "=?GB2312?Q?wis@yml=2Ecom=2Ecn?=" <wis@yml.com.cn>
+From: "=?GB2312?Q?wis@yml=2Ecom=2Ecn?=" <wis@yml.com.cn>
+Date: Tue, 30 Oct 2018 11:23:32 +0800
+To: "=?GB2312?Q?lineryml@cmlog=2Ecom?=" <lineryml@cmlog.com>
+Reply-To: <wis@yml.com.cn>
+Content-Transfer-Encoding: Quoted-Printable
+X-Mailer: JMail 4.3.1 by Dimac
+Content-Type: text/html; charset="GB2312"
+X-TM-AS-MML: disable
+X-TM-AS-Product-Ver: IMSS-7.5.0.1451-8.2.0.1013-24188.004
+X-TM-AS-Result: No--4.325-5.0-31-10
+X-imss-scan-details: No--4.325-5.0-31-10
+X-TMASE-MatchedRID: 5Cy8wpbDKq/v8q2bVgPxQrlYhgNnrtbT7KBBZ2QBUyxC1PrD13DgaRii
+	TM3RjNAp1zisPc4X5P4dPYyVqrLGmlgx9rCMvPo//lhr1Em4DtJCEOOYHvjv7j805iFaddPeA1p
+	0qmeIxWHutdHHnY5Kmj4IidggKW//I1nkL60LQhGaecho1pk4sdLQxtZ8WmAAULfbxDrYz8t6k2
+	HN5nn5b4cvXD7e3dnAOp3+4Vio+QfnibXdwxr2R3abt1EbHxZu9J0wS4gUxSbbsCHfGOZWkQTuy
+	DDnbu1O7BoP5lLu0C2hz24ZckRKQekS2s+ye5vKxtikDKMvAneU00IiqCu3W3/Mhyc3eC6nxDeq
+	QL1HWmtJqJ19um84KJU7Bltw5qVLoqEubYoTG16tXAMuvrTNan9fuSHulg185qcY9Agv98SgUuV
+	9eovo9UH6uEwDchUoRspVlEHe6T3s/ea6lnpao/sCBpZuaQ+ZdyLS97Hwa204yeuLQlyWUwp/E2
+	lfYBlcvHCLjmhiDaQ/3GZ+dHsx6muKzJ/5ymGOjtMJ6UQOTywotdONt6lW1v1FqapTPP3fJgHrW
+	IS8lCIuXJiUEq0ZsfQQ0hmIokczCKrZYAfc/MwATsNYVH0IwSnCwRBQbo0vYh3GeYoUJPkSLiwI
+	oIw+XPb7SSJu97Co4kZqc1+Ox2y4cq5uTj3s6EVOxnCPsaUGvbLvhlvKWDE=
+Received-SPF: none (SPAM.cmlog.com: domain of wis@yml.com.cn does not designate permitted sender hosts)
+X-DNSRBL:
+X-MAIL: SPAM.cmlog.com w9U3OQRi024817
+Return-Path: wis@yml.com.cn
+X-MS-Exchange-Organization-Network-Message-Id: 6991ad55-458d-4e3f-782d-08d63e173e36
+X-MS-Exchange-Organization-AVStamp-Enterprise: 1.0
+X-MS-Exchange-Organization-AuthSource: MAIL03.CMLOG.LOCAL
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:00.3413590
+MIME-Version: 1.0
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dgb2312"><=
+style type=3D"text/css">
+                        body, div, table
+                        {
+	                        font-size: 9pt;
+	                        font-family:Arial,=CB=CE=CC=E5 ;
+                        }
+
+                        .table
+                        {
+	                        border: solid 1px #CCCCCC;=20
+	                        border-collapse: collapse;
+                        }
+
+                        .td_field
+                        {
+	                        border: solid 1px #CCCCCC;=20
+	                        background-color:#EAEFFB;=20
+                        }
+
+                        .td_content
+                        {
+	                        border: solid 1px #CCCCCC;=20
+                        }
+                        </style><div>Dear (ZHONGCHUANGWULIU-TAO) =D6=D0=B4=
+=B4=CE=EF=C1=F7=B9=C9=B7=DD=D3=D0=CF=DE=B9=AB=CB=BE,<br><br><table border=
+=3D"0" cellpadding=3D"0"><tr><td>=C4=FA=B5=C4=B6=A9=B2=D5ZCYC01799044=D2=D1=
+=C8=B7=C8=CF:</td></tr><tr><td align=3D"left"><table width=3D"720px" class=
+=3D"table"><tr style=3D"height:18px;text-align:left;" class=3D"td_field"><t=
+d colspan=3D"4" style=3D"padding:3px;" class=3D"td_content"><b>=B6=A9=B2=D5=
+=CF=EA=C7=E9</b></td></tr><tr><td width=3D"12%" style=3D"text-align:right;p=
+adding:3px;" class=3D"td_field">=D4=CB=B1=E0=BA=C5</td><td width=3D"38%" st=
+yle=3D"text-align:left; padding-left:5px;" class=3D"td_content">ZCYC0179904=
+4&nbsp;</td><td width=3D"12%" style=3D"text-align:right;padding:3px;" class=
+=3D"td_field">=B7=A2=BB=F5=C8=CB</td><td width=3D"38%" style=3D"table-layou=
+t:fixed; word-break: break-all; overflow:hidden; text-align:left; padding-l=
+eft:5px;" class=3D"td_content">(ZHONGCHUANGWULIU-TAO) =D6=D0=B4=B4=CE=EF=C1=
+=F7=B9=C9=B7=DD=D3=D0=CF=DE=B9=AB=CB=BE&nbsp;</td></tr><tr><td width=3D"12%=
+" style=3D"text-align:right;padding:3px;" class=3D"td_field">=B9=D8=B5=A5=
+=BA=C5</td><td width=3D"38%" style=3D"text-align:left; padding-left:5px;" c=
+lass=3D"td_content">C240003745&nbsp;</td><td width=3D"12%" style=3D"text-al=
+ign:right;padding:3px;" class=3D"td_field">=B8=B6=BF=EE=B7=BD=CA=BD</td><td=
+ width=3D"38%" style=3D"text-align:left; padding-left:5px;" class=3D"td_con=
+tent">P\CNTAO&nbsp;</td></tr><tr><td width=3D"12%" style=3D"text-align:righ=
+t;padding:3px;" class=3D"td_field">=B4=AC=C3=FB=BA=BD=B4=CE</td><td width=
+=3D"38%" style=3D"text-align:left; padding-left:5px;" class=3D"td_content">=
+CSCL SATURN V.0NM0VW1PL&nbsp;</td><td width=3D"12%" style=3D"text-align:rig=
+ht;padding:3px;" class=3D"td_field">=BF=BF=C7=F8</td><td width=3D"38%" styl=
+e=3D"table-layout:fixed; word-break: break-all; overflow:hidden;text-align:=
+left; padding-left:5px;" class=3D"td_content">QQCT&nbsp;</td></tr><tr><td w=
+idth=3D"12%" style=3D"text-align:right;padding:3px;" class=3D"td_field">=BF=
+=AA=BA=BD=CA=B1=BC=E4</td><td width=3D"38%" style=3D"text-align:left; paddi=
+ng-left:5px;" class=3D"td_content">2018-11-11&nbsp;</td><td width=3D"12%" s=
+tyle=3D"text-align:right;padding:3px;" class=3D"td_field">=C4=BF=B5=C4=B5=
+=D8</td><td width=3D"38%" style=3D"text-align:left; padding-left:5px;" clas=
+s=3D"td_content">(PECLL) CALLAO&nbsp;</td></tr><tr><td width=3D"12%" style=
+=3D"text-align:right;padding:3px;" class=3D"td_field">=BA=BD=CF=DF</td><td =
+width=3D"38%" style=3D"text-align:left; padding-left:5px;" class=3D"td_cont=
+ent">ME3 =D7=AA SA4&nbsp;</td><td width=3D"12%" style=3D"text-align:right;p=
+adding:3px;" class=3D"td_field">=D0=B6=BB=F5=B8=DB</td><td width=3D"38%" st=
+yle=3D"table-layout:fixed; word-break: break-all; overflow:hidden; text-ali=
+gn:left; padding-left:5px;" class=3D"td_content">(HKHKG) HONG KONG&nbsp;</t=
+d></tr><tr><td width=3D"12%" style=3D"text-align:right;padding:3px;" class=
+=3D"td_field">=B6=FE=B3=CC=B4=AC=C3=FB</td><td width=3D"38%" style=3D"text-=
+align:left; padding-left:5px;" class=3D"td_content">NORTHERN JASPER V.0393-=
+004E&nbsp;</td><td width=3D"12%" style=3D"text-align:right;padding:3px;" cl=
+ass=3D"td_field">=D0=B6=BB=F5=B8=DB=B4=FA=C2=EB</td><td width=3D"38%" style=
+=3D"text-align:left; padding-left:5px;" class=3D"td_content">HKHKG&nbsp;</t=
+d></tr><tr><td width=3D"12%" style=3D"text-align:right;padding:3px;" class=
+=3D"td_field">=B6=D1=B3=A1</td><td width=3D"38%" style=3D"text-align:left; =
+padding-left:5px;" class=3D"td_content">&nbsp;&nbsp;</td><td width=3D"12%" =
+style=3D"text-align:right;padding:3px;" class=3D"td_field">=C3=AB=D6=D8</td=
+><td width=3D"38%" style=3D"text-align:left; padding-left:5px;" class=3D"td=
+_content">21000&nbsp;</td></tr><tr><td width=3D"12%" style=3D"text-align:ri=
+ght;padding:3px;" class=3D"td_field">=D1=F4=C3=F7=C1=AA=CF=B5=C8=CB</td><td=
+ width=3D"38%" style=3D"text-align:left; padding-left:5px;" class=3D"td_con=
+tent">SUNNY, 532-85026028*227&nbsp;</td><td width=3D"12%" style=3D"text-ali=
+gn:right;padding:3px;" class=3D"td_field">=D0=B6=B8=DB=CC=F5=BF=EE</td><td =
+width=3D"38%" style=3D"text-align:left; padding-left:5px;" class=3D"td_cont=
+ent">CONTAINER YARD (CY)&nbsp;</td></tr><tr><td width=3D"12%" style=3D"text=
+-align:right;padding:3px;" class=3D"td_field">=BA=CF=D4=BC=BA=C5</td><td wi=
+dth=3D"38%" style=3D"text-align:left; padding-left:5px;" class=3D"td_conten=
+t">WSAE00902000&nbsp;</td><td width=3D"12%" style=3D"text-align:right;paddi=
+ng:3px;" class=3D"td_field">Commodity Group</td><td width=3D"38%" style=3D"=
+text-align:left; padding-left:5px;" class=3D"td_content">&nbsp;</td></tr><t=
+r><td width=3D"12%" style=3D"text-align:right;padding:3px;" class=3D"td_fie=
+ld">=CF=E4=D0=CD=CF=E4=C1=BF</td><td colspan=3D"3" style=3D"table-layout:fi=
+xed; word-break: break-all; overflow:hidden; text-align:left; padding-left:=
+5px; padding-top:5px;" class=3D"td_content">40HQ*1<div id=3D"dv_ctrsDtl"><t=
+able><tr><td colspan=3D"4">------------------------------------------------=
+---------------------------------------------------------------------------=
+----------------</td></tr><tr><td width=3D"70px">=B1=E0=BA=C5</td><td width=
+=3D"50px">=CF=E4=D0=CD</td><td width=3D"225px">=CC=E1=CF=E4=B5=E3</td><td w=
+idth=3D"225px">=BB=B9=CF=E4=B5=E3</td></tr><tr><td>12318075</td><td>40HQ</t=
+d><td>=D6=D0=B4=B4</td><td>QQCT</td></tr></table></div>&nbsp;</td></tr><tr>=
+<td width=3D"12%" style=3D"text-align:right;padding:3px;" class=3D"td_field=
+">=D4=A4=C5=E4=CC=E1=B5=A5=BA=C5</td><td colspan=3D"3" style=3D"table-layou=
+t:fixed; word-break: break-all; overflow:hidden;text-align:left; padding-le=
+ft:5px;" class=3D"td_content">&nbsp;</td></tr><tr><td width=3D"12%" style=
+=3D"text-align:right;padding:3px;" class=3D"td_field">=D4=CB=CA=E4=D0=C5=CF=
+=A2</td><td colspan=3D"3" style=3D"table-layout:fixed; word-break: break-al=
+l; overflow:hidden;text-align:left; padding-left:5px;" class=3D"td_content"=
+>2nd Voyage: From HKHKG To PECLL, Voyage:NORTHERN JASPER 0393-004E, ETD:201=
+8-11-19 08:30&nbsp;</td></tr><tr><td width=3D"12%" style=3D"text-align:righ=
+t;padding:3px;" class=3D"td_field">VGM=BD=D8=D6=B9=CA=B1=BC=E4</td><td cols=
+pan=3D"3" style=3D"table-layout:fixed; word-break: break-all; overflow:hidd=
+en;text-align:left; padding-left:5px;" class=3D"td_content">&nbsp;</td></tr=
+><tr><td width=3D"12%" style=3D"text-align:right;padding:3px;" class=3D"td_=
+field">=B1=B8=D7=A2</td><td colspan=3D"3" style=3D"table-layout:fixed; word=
+-break: break-all; overflow:hidden;text-align:left; padding-left:5px;" clas=
+s=3D"td_content">&nbsp;</td></tr></table><br></td></tr></table><br>=C7=EB=
+=B5=C7=C2=BC=CE=D2=CB=BE<a href=3D"www.yml.com.cn">=D6=D0=CE=C4=CD=F8=D5=BE=
+</a>=B2=E9=D1=AF=B8=FC=B6=E0=D0=C5=CF=A2!</div><br><br><br><div>=D1=F4=C3=
+=F7=BA=A3=D4=CB=B9=AB=CB=BE<br>2018/10/30 11:23:32</div>
+
